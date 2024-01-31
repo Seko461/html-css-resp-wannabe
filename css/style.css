@@ -129,51 +129,8 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
-@media screen and (min-width:769px) {
-    .container {
-        width: 980px;
-        padding: 1rem 0;
-    }
-
-    h1 {
-        font-size: 3.25rem;
-    }
-
-    h2 {
-        font-size: 2.5rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 1.25rem;
-    }
-
-    /* .row {
-        padding: 0 2rem;
-    } */
-
+@media screen and (max-width:768px) {
     .col {
-        padding: 1rem 0;
-    }
-
-    .card {
-        padding: 0 2.5rem;
-    }
-
-    /* h3,
-    p {
-        padding: 0 2rem;
-    } */
-
-    .col-left {
-        padding-left: 3rem;
-    }
-
-    .col-right {
-        padding: 0 2rem;
+        width: calc(768px/2);
     }
 }
